@@ -65,5 +65,13 @@ public class TransactionController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
+
+    [HttpGet]
+    [Route("AllTransaction")]
+    public async Task<ActionResult<IEnumerable<Transaction>>> GetTransactions()
+    {
+        var transactions = await _transactionService.GetTransaction();
+        return Ok(transactions);
+    }
 }
 

@@ -11,4 +11,5 @@ public class TransactionDbContext: DbContext
     }
 
     public DbSet<TransactionModel> TransactionModels { get; set; }
+    public DbSet<UserModel> UserModels { get; set; }
 }

@@ -41,4 +41,11 @@ public class TransactionService: ITransactionService
     {
         return await _repository.GetByIdAsync(id);
     }
+
+    public async Task<IReadOnlyCollection<Transaction>> GetTransaction()
+    {
+       return await _repository.GetTransactions();
+    }
+
+    
 }

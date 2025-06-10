@@ -17,6 +17,7 @@ var host = Host.CreateDefaultBuilder(args)
 
         services.AddDbContext<TransactionDbContext>(options =>
             options.UseNpgsql(connectionString));
+        
     })
     .Build();
 
@@ -35,3 +36,4 @@ catch (Exception ex)
     Console.WriteLine($"An error occurred while applying migrations: {ex.Message}");
     throw;
 }
+

@@ -8,10 +8,13 @@ using TestTask.Unistrim.Api.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.ConfigureDbContext();
+builder.Services.AddSwaggerConfiguration(builder.Configuration);
 builder.Services.ConfigureValidation();
 builder.Services.AddControllers();
 builder.Services.AddScoped<ITransactionService, TransactionService>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 
@@ -22,5 +25,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.UseSwaggerConfiguration();
 app.Run();

@@ -1,0 +1,453 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VSProects\\Unistrim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\validations\\transactionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\validations\\transactionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\dto\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\dto\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\validations\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\validations\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\migrations\\transactiondbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\migrations\\transactiondbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76D9830-FAD7-4F5B-9398-D465951F2B28}|TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.migrationrunner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76D9830-FAD7-4F5B-9398-D465951F2B28}|TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj|solutionrelative:testtask.unistrim.migrationrunner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\infrustructure\\transactiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\infrustructure\\transactiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76D9830-FAD7-4F5B-9398-D465951F2B28}|TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.migrationrunner\\testtask.unistrim.migrationrunner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E76D9830-FAD7-4F5B-9398-D465951F2B28}|TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj|solutionrelative:testtask.unistrim.migrationrunner\\testtask.unistrim.migrationrunner.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\testtask.unistrim.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\testtask.unistrim.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\testtask.unistrim.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\testtask.unistrim.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76D9830-FAD7-4F5B-9398-D465951F2B28}|TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.migrationrunner\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E76D9830-FAD7-4F5B-9398-D465951F2B28}|TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj|solutionrelative:testtask.unistrim.migrationrunner\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\migrations\\20250502163118_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\migrations\\20250502163118_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D1FF764-E830-4F63-948B-6017FB6F9203}|TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj|solutionrelative:testtask.unistrim.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76D9830-FAD7-4F5B-9398-D465951F2B28}|TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj|d:\\vsproects\\unistrim\\testtask.unistrim.migrationrunner\\testtask.unistrim.migrationrunner.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E76D9830-FAD7-4F5B-9398-D465951F2B28}|TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj|solutionrelative:testtask.unistrim.migrationrunner\\testtask.unistrim.migrationrunner.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:51:07.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Models\\UserModel.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Models\\UserModel.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T02:00:40.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T02:55:15.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TransactionDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Migrations\\TransactionDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Migrations\\TransactionDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Migrations\\TransactionDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Migrations\\TransactionDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:14:08.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Program.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Program.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T08:04:29.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Services\\UserService.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Services\\UserService.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Services\\UserService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwC4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:36:59.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Validations\\UserValidator.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Validations\\UserValidator.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Validations\\UserValidator.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Validations\\UserValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:31:58.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAswEgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:44:43.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:02:02.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Dto\\User.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Dto\\User.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Dto\\User.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Dto\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T02:35:54.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T02:33:02.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TransactionDbContext.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Infrustructure\\TransactionDbContext.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Infrustructure\\TransactionDbContext.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Infrustructure\\TransactionDbContext.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Infrustructure\\TransactionDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T11:41:55.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.MigrationRunner\\Program.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.MigrationRunner\\Program.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.MigrationRunner\\Program.cs",
+              "RelativeToolTip": "TestTask.Unistrim.MigrationRunner\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:18:02.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TestTask.Unistrim.Api",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T08:33:26.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TestTask.Unistrim.MigrationRunner.csproj",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj",
+              "RelativeToolTip": "TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T08:51:35.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TestTask.Unistrim.Api.csproj",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\TestTask.Unistrim.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T08:33:17.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.MigrationRunner\\Dockerfile",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.MigrationRunner\\Dockerfile",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.MigrationRunner\\Dockerfile",
+              "RelativeToolTip": "TestTask.Unistrim.MigrationRunner\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-11T08:52:37.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250502163118_InitialCreate.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Migrations\\20250502163118_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Migrations\\20250502163118_InitialCreate.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Migrations\\20250502163118_InitialCreate.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Migrations\\20250502163118_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:43:12.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Dockerfile",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Dockerfile",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Dockerfile",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-11T08:51:45.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TestTask.Unistrim.MigrationRunner",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj",
+              "RelativeToolTip": "TestTask.Unistrim.MigrationRunner\\TestTask.Unistrim.MigrationRunner.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-11T08:52:05.985Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "cb75e500-dc11-4edc-9214-15b1fe90071f",
+        "Display": 1,
+        "X": -572,
+        "Y": 301,
+        "Width": 1245,
+        "Height": 558,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Interfaces\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Interfaces\\ITransactionRepository.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Interfaces\\ITransactionRepository.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Interfaces\\ITransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:24:16.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITransactionService.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Interfaces\\ITransactionService.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Interfaces\\ITransactionService.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Interfaces\\ITransactionService.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Interfaces\\ITransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:43:32.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:25:14.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Services\\TransactionService.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Services\\TransactionService.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Services\\TransactionService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T16:38:32.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionValidator.cs",
+              "DocumentMoniker": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Validations\\TransactionValidator.cs",
+              "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Validations\\TransactionValidator.cs",
+              "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Validations\\TransactionValidator.cs",
+              "RelativeToolTip": "TestTask.Unistrim.Api\\Validations\\TransactionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:34:41.652Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
