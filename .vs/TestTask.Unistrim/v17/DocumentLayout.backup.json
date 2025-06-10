@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -119,10 +119,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -192,7 +188,7 @@
               "RelativeDocumentMoniker": "TestTask.Unistrim.Api\\Services\\UserService.cs",
               "ToolTip": "D:\\VSProects\\Unistrim\\TestTask.Unistrim.Api\\Services\\UserService.cs",
               "RelativeToolTip": "TestTask.Unistrim.Api\\Services\\UserService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwC4AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwC4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T16:36:59.054Z",
               "EditorCaption": ""
