@@ -42,11 +42,11 @@ public class UserService: IUserService
         return await _repository.GetUsersAsync();
     }
 
-    public async Task ChangeUserById(Guid id, string FirstName, string LastName, string Email, string Password)
+    public async Task ChangeUserById(User user)
     {
         try
         {
-            await _repository.ChangeUserAsync(id, FirstName, LastName, Email, Password);
+            await _repository.ChangeUserAsync(user);
             return;
         }
         catch(Exception ex)

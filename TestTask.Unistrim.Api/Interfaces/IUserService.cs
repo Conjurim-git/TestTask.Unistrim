@@ -7,7 +7,7 @@ namespace TestTask.Unistrim.Api.Interfaces
     {
         Task<User> CreateUser(User user);
         Task<IReadOnlyCollection<User>> GetAllUsers();
-        Task ChangeUserById(Guid id, string FirstName, string LastName, string Email, string Password);
+        Task ChangeUserById(User user);
         Task DeleteUserById(Guid id);
     }
 }

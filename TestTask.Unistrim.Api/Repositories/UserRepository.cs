@@ -61,25 +61,26 @@ namespace TestTask.Unistrim.Api.Repositories;
         .ToListAsync();
     }
 
-    public async Task<UserModel> ChangeUserAsync(Guid id, string newFirstName, string newLastName, string newEmail, string newPassword)
+    public async Task<UserModel> ChangeUserAsync(User user)
     {
-        var existingUser = await _context.UserModels.FindAsync(id);
+
+        var existingUser = await _context.UserModels.FindAsync(user.Id);
         if (existingUser is not null)
         {
             
             UserModel changedUserModel = existingUser;
 
-            _context.Entry(changedUserModel).Property(x => x.FirstName).CurrentValue = newFirstName;
-            _context.Entry(changedUserModel).Property(x => x.LastName).CurrentValue = newLastName;
-            _context.Entry(changedUserModel).Property(x => x.Email).CurrentValue = newEmail;
-            _context.Entry(changedUserModel).Property(x => x.Password).CurrentValue = newPassword;
+            _context.Entry(changedUserModel).Property(x => x.FirstName).CurrentValue = user.FirstName;
+            _context.Entry(changedUserModel).Property(x => x.LastName).CurrentValue = user.LastName;
+            _context.Entry(changedUserModel).Property(x => x.Email).CurrentValue = user.Email;
+            _context.Entry(changedUserModel).Property(x => x.Password).CurrentValue = user.Password;
 
             await _context.SaveChangesAsync();
             return changedUserModel;
         }
         else
         {
-            throw new KeyNotFoundException($"Пользователь с ID: {id} не найден");
+            throw new KeyNotFoundException($"Пользователь с ID: {user.Id} не найден");
         }
     }
 
