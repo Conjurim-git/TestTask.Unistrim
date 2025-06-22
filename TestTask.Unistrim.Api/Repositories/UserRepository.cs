@@ -60,5 +60,50 @@ namespace TestTask.Unistrim.Api.Repositories;
         })
         .ToListAsync();
     }
+
+    public async Task<UserModel> ChangeUserAsync(Guid id, string newFirstName, string newLastName, string newEmail, string newPassword)
+    {
+        var existingUser = await _context.UserModels.FindAsync(id);
+        if (existingUser is not null)
+        {
+            
+            UserModel changedUserModel = existingUser;
+
+            _context.Entry(changedUserModel).Property(x => x.FirstName).CurrentValue = newFirstName;
+            _context.Entry(changedUserModel).Property(x => x.LastName).CurrentValue = newLastName;
+            _context.Entry(changedUserModel).Property(x => x.Email).CurrentValue = newEmail;
+            _context.Entry(changedUserModel).Property(x => x.Password).CurrentValue = newPassword;
+
+            await _context.SaveChangesAsync();
+            return changedUserModel;
+        }
+        else
+        {
+            throw new KeyNotFoundException($"Пользователь с ID: {id} не найден");
+        }
+    }
+
+
+    public async Task DeleteUserAsync(Guid id)
+    {
+        var userToRemove = await _context.UserModels.FindAsync(id);
+        if (userToRemove != null)
+        {
+            _context.UserModels.Remove(userToRemove);
+            await _context.SaveChangesAsync();
+        }
+        
+        else 
+        { 
+            throw new KeyNotFoundException($"Пользователь с ID: {id} не найден"); 
+        }
+            
+    }
+  
 }
 
+//bool isUpdated = false;
+//if (existingUser.FirstName != )
+//{
+
+//}

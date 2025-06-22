@@ -46,15 +46,24 @@ public class UserController : ControllerBase
         return Ok(users);
     }
 
+    [HttpPut]
+    [Route("ChangeUser")]
+    public async Task<ActionResult> ChangeUser(Guid id, string FirstName, string LastName, string Email, string Password)
+    {
+        await _userService.ChangeUserById(id, FirstName, LastName, Email, Password);
+        return Ok();
+    }
+
+
     [HttpDelete]
     [Route("DeleteUser")]
     public async Task<ActionResult<User>> DeleteUser(Guid id)
     {
         try
         {
-            string result = await _userService.DeleteUserById(id);
+            await _userService.DeleteUserById(id);
 
-            return Ok(result);
+            return Ok();
         }
 
         catch (Exception ex)

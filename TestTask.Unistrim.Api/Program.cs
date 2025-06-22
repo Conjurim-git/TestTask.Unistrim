@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using TestTask.Unistrim.Api;
 using TestTask.Unistrim.Api.Configurations;
 using TestTask.Unistrim.Api.Infrustructure;
 using TestTask.Unistrim.Api.Interfaces;
@@ -11,6 +12,7 @@ builder.ConfigureDbContext();
 builder.Services.AddSwaggerConfiguration(builder.Configuration);
 builder.Services.ConfigureValidation();
 builder.Services.AddControllers();
+builder.Services.AddHostedService<TimedHostedService>();
 builder.Services.AddScoped<ITransactionService, TransactionService>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<IUserService, UserService>();

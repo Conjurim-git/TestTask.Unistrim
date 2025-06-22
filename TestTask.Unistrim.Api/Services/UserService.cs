@@ -42,8 +42,23 @@ public class UserService: IUserService
         return await _repository.GetUsersAsync();
     }
 
-    public async Task<User> DeleteUserById(Guid id)
+    public async Task ChangeUserById(Guid id, string FirstName, string LastName, string Email, string Password)
     {
-        return await _repository.DeleteUserAsync(id);
+        try
+        {
+            await _repository.ChangeUserAsync(id, FirstName, LastName, Email, Password);
+            return;
+        }
+        catch(Exception ex)
+        {
+            throw new Exception($"Произошла ошибка при изменении пользователя {ex.Message}");
+        }
+       
+    }
+
+    
+    public async Task DeleteUserById(Guid id)
+    {
+        await _repository.DeleteUserAsync(id);
     }
 }
