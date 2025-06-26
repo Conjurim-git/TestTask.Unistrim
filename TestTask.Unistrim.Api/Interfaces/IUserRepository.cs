@@ -8,6 +8,6 @@ namespace TestTask.Unistrim.Api.Interfaces;
         Task<UserModel> CreateAsync(User user);
         Task<List<User>> GetUsersAsync();
         Task DeleteUserAsync(Guid id);
-        Task<UserModel> ChangeUserAsync(User user);
+        Task<UserModel> ChangeUserAsync(UserForUpdate user);
     }
 

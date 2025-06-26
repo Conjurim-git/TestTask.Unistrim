@@ -42,7 +42,7 @@ public class UserService: IUserService
         return await _repository.GetUsersAsync();
     }
 
-    public async Task ChangeUserById(User user)
+    public async Task ChangeUserById(UserForUpdate user)
     {
         try
         {

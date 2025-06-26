@@ -61,7 +61,7 @@ namespace TestTask.Unistrim.Api.Repositories;
         .ToListAsync();
     }
 
-    public async Task<UserModel> ChangeUserAsync(User user)
+    public async Task<UserModel> ChangeUserAsync(UserForUpdate user)
     {
 
         var existingUser = await _context.UserModels.FindAsync(user.Id);

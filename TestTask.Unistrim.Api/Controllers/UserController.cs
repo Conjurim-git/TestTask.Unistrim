@@ -48,7 +48,7 @@ public class UserController : ControllerBase
 
     [HttpPut]
     [Route("ChangeUser")]
-    public async Task<ActionResult> ChangeUser(User user)
+    public async Task<ActionResult> ChangeUser(UserForUpdate user)
     {
         await _userService.ChangeUserById(user);
         return Ok();

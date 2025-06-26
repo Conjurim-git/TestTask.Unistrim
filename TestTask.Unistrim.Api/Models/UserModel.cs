@@ -1,4 +1,6 @@
-﻿namespace TestTask.Unistrim.Api.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace TestTask.Unistrim.Api.Models
 {
     public sealed class UserModel
     {
