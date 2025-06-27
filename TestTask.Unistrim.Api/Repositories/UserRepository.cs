@@ -68,15 +68,26 @@ namespace TestTask.Unistrim.Api.Repositories;
         if (existingUser is not null)
         {
             
-            UserModel changedUserModel = existingUser;
 
-            _context.Entry(changedUserModel).Property(x => x.FirstName).CurrentValue = user.FirstName;
-            _context.Entry(changedUserModel).Property(x => x.LastName).CurrentValue = user.LastName;
-            _context.Entry(changedUserModel).Property(x => x.Email).CurrentValue = user.Email;
-            _context.Entry(changedUserModel).Property(x => x.Password).CurrentValue = user.Password;
+            if (existingUser.FirstName == null || existingUser.FirstName == "string"  )
+            {
+                _context.Entry(existingUser).Property(u => u.FirstName).IsModified = false;
+                await _context.SaveChangesAsync();
+            }
+            else
+            {
+                existingUser.FirstName = user.FirstName; 
+                await _context.SaveChangesAsync();
+            }
+            //_context.Entry(changedUserModel).Property(x => x.FirstName).CurrentValue = user.FirstName;
+            //_context.Entry(changedUserModel).Property(x => x.LastName).CurrentValue = user.LastName;
+            //_context.Entry(changedUserModel).Property(x => x.Email).CurrentValue = user.Email;
+            //_context.Entry(changedUserModel).Property(x => x.Password).CurrentValue = user.Password;
 
-            await _context.SaveChangesAsync();
-            return changedUserModel;
+            return existingUser;
+
+
+
         }
         else
         {
