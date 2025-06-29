@@ -68,26 +68,48 @@ namespace TestTask.Unistrim.Api.Repositories;
         if (existingUser is not null)
         {
             
-
-            if (existingUser.FirstName == null || existingUser.FirstName == "string"  )
+           foreach (var property in _context.Entry(existingUser).Properties)
             {
-                _context.Entry(existingUser).Property(u => u.FirstName).IsModified = false;
-                await _context.SaveChangesAsync();
+                property.IsModified = false;
             }
-            else
-            {
-                existingUser.FirstName = user.FirstName; 
-                await _context.SaveChangesAsync();
-            }
-            //_context.Entry(changedUserModel).Property(x => x.FirstName).CurrentValue = user.FirstName;
-            //_context.Entry(changedUserModel).Property(x => x.LastName).CurrentValue = user.LastName;
-            //_context.Entry(changedUserModel).Property(x => x.Email).CurrentValue = user.Email;
-            //_context.Entry(changedUserModel).Property(x => x.Password).CurrentValue = user.Password;
 
+            if (existingUser.FirstName == null || existingUser.FirstName == "string" )
+            {
+                if (existingUser.FirstName != user.FirstName)
+                {
+                    existingUser.FirstName = user.FirstName;
+                    _context.Entry(existingUser).Property(u => u.FirstName).IsModified = true;
+                }    
+            }
+
+            if (existingUser.LastName == null || existingUser.LastName == "string")
+            {
+                if (existingUser.LastName != user.LastName)
+                {
+                    existingUser.LastName = user.LastName;
+                    _context.Entry(existingUser).Property(u => u.LastName).IsModified = true;
+                }
+            }
+
+            if (existingUser.Email == null || existingUser.Email == "string")
+            {
+                if (existingUser.Email != user.Email)
+                {
+                    existingUser.Email = user.Email;
+                    _context.Entry(existingUser).Property(u => u.Email).IsModified = true;
+                }
+            }
+
+            if (existingUser.Password == null || existingUser.Password == "string")
+            {
+                if (existingUser.Password != user.Password)
+                {
+                    existingUser.Password = user.Password;
+                    _context.Entry(existingUser).Property(u => u.Password).IsModified = true;
+                }
+            }
+            await _context.SaveChangesAsync();
             return existingUser;
-
-
-
         }
         else
         {
