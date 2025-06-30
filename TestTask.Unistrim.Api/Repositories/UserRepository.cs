@@ -78,7 +78,6 @@ namespace TestTask.Unistrim.Api.Repositories;
                 if (existingUser.FirstName != user.FirstName)
                 {
                     existingUser.FirstName = user.FirstName;
-                    _context.Entry(existingUser).Property(u => u.FirstName).IsModified = true;
                 }    
             }
 
@@ -87,7 +86,6 @@ namespace TestTask.Unistrim.Api.Repositories;
                 if (existingUser.LastName != user.LastName)
                 {
                     existingUser.LastName = user.LastName;
-                    _context.Entry(existingUser).Property(u => u.LastName).IsModified = true;
                 }
             }
 
@@ -96,7 +94,6 @@ namespace TestTask.Unistrim.Api.Repositories;
                 if (existingUser.Email != user.Email)
                 {
                     existingUser.Email = user.Email;
-                    _context.Entry(existingUser).Property(u => u.Email).IsModified = true;
                 }
             }
 
@@ -105,7 +102,6 @@ namespace TestTask.Unistrim.Api.Repositories;
                 if (existingUser.Password != user.Password)
                 {
                     existingUser.Password = user.Password;
-                    _context.Entry(existingUser).Property(u => u.Password).IsModified = true;
                 }
             }
             await _context.SaveChangesAsync();
