@@ -1,4 +1,5 @@
-﻿using TestTask.Unistrim.Api.Dto;
+﻿using System.Net;
+using TestTask.Unistrim.Api.Dto;
 using TestTask.Unistrim.Api.Interfaces;
 using TestTask.Unistrim.Api.Models;
 
@@ -40,6 +41,34 @@ public class UserService: IUserService
     public async Task<IReadOnlyCollection<User>> GetAllUsers()
     {
         return await _repository.GetUsersAsync();
+    }
+
+    //public async Task<List<UserDiscount>> ChooseUserForDiscountAsync()
+    //{
+    //    int maxCountUsers = 3;
+    //    int currentCountUsers;
+
+    //    List<UserDiscount> firstList = await _repository.GetUsersToDiscountAsync();
+    //    for (currentCountUsers = 0; currentCountUsers < maxCountUsers; currentCountUsers++)
+    //    {
+    //        int countUsers = firstList.Count;
+
+    //    }
+
+    //    return.....
+    //}
+
+    public async Task<List<Guid>> ChooseIDsForDiscountAsync()
+    {
+        var random = new Random();
+        int idsWithDiscount = 3;
+        List<Guid> ids = await _repository.GetIDsAsync();
+        List<Guid> IDsWithDiscount;
+        IDsWithDiscount = ids.OrderBy(x => random.NextDouble()).Take(idsWithDiscount).ToList();
+
+
+
+        return IDsWithDiscount;
     }
 
     public async Task ChangeUserById(UserForUpdate user)

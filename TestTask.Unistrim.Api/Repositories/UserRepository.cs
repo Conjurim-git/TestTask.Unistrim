@@ -61,6 +61,25 @@ namespace TestTask.Unistrim.Api.Repositories;
         .ToListAsync();
     }
 
+    public async Task<List<Guid>> GetIDsAsync()
+    {
+        return await _context.UserModels.Select(x => x.Id)
+        .ToListAsync();
+    }
+
+    public async Task<List<UserDiscount>> GetUsersToDiscountAsync()
+    {
+        return await _context.UserModels.Select(x => new UserDiscount()
+        {
+            Id = x.Id,
+            FirstName = x.FirstName,
+            LastName = x.LastName,
+            IsDiscount = false,
+            ValueOfDiscount = 0
+        })
+        .ToListAsync();
+    }
+
     public async Task<UserModel> ChangeUserAsync(UserForUpdate user)
     {
 
@@ -132,8 +151,3 @@ namespace TestTask.Unistrim.Api.Repositories;
   
 }
 
-//bool isUpdated = false;
-//if (existingUser.FirstName != )
-//{
-
-//}
