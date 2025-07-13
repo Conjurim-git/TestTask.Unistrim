@@ -66,10 +66,17 @@ public class UserService: IUserService
         List<Guid> IDsWithDiscount;
         IDsWithDiscount = ids.OrderBy(x => random.NextDouble()).Take(idsWithDiscount).ToList();
 
-
-
         return IDsWithDiscount;
     }
+
+    //public async Task<List<UserDiscount>> ChooseUserForDiscountAsync()
+    //{
+    //    List<Guid> ids = await ChooseIDsForDiscountAsync();
+
+
+
+    //    return
+    //}
 
     public async Task ChangeUserById(UserForUpdate user)
     {
@@ -82,10 +89,8 @@ public class UserService: IUserService
         {
             throw new Exception($"Произошла ошибка при изменении пользователя {ex.Message}");
         }
-       
     }
 
-    
     public async Task DeleteUserById(Guid id)
     {
         await _repository.DeleteUserAsync(id);
