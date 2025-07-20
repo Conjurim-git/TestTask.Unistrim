@@ -38,10 +38,17 @@ public class UserService: IUserService
             throw new Exception($"Произошла ошибка при добавлении нового пользователя {ex.Message}");
         }
     }
+
     public async Task<IReadOnlyCollection<User>> GetAllUsers()
     {
         return await _repository.GetUsersAsync();
     }
+
+    public async Task<IReadOnlyCollection<Guid>> GetUserIDsAsync()
+    {
+       return await _repository.GetIDsAsync();
+    }
+
 
     //public async Task<List<UserDiscount>> ChooseUserForDiscountAsync()
     //{
@@ -57,18 +64,18 @@ public class UserService: IUserService
 
     //    return.....
     //}
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //public async Task<List<Guid>> ChooseIDsForDiscountAsync()
+    //{
+    //    var random = new Random();
+    //    int idsWithDiscount = 3;
+    //    List<Guid> ids = await _repository.GetIDsAsync();
+    //    List<Guid> IDsWithDiscount;
+    //    IDsWithDiscount = ids.OrderBy(x => random.NextDouble()).Take(idsWithDiscount).ToList();
 
-    public async Task<List<Guid>> ChooseIDsForDiscountAsync()
-    {
-        var random = new Random();
-        int idsWithDiscount = 3;
-        List<Guid> ids = await _repository.GetIDsAsync();
-        List<Guid> IDsWithDiscount;
-        IDsWithDiscount = ids.OrderBy(x => random.NextDouble()).Take(idsWithDiscount).ToList();
-
-        return IDsWithDiscount;
-    }
-
+    //    return IDsWithDiscount;
+    //}
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //public async Task<List<UserDiscount>> ChooseUserForDiscountAsync()
     //{
     //    List<Guid> ids = await ChooseIDsForDiscountAsync();
@@ -77,6 +84,8 @@ public class UserService: IUserService
 
     //    return
     //}
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
     public async Task ChangeUserById(UserForUpdate user)
     {

@@ -19,7 +19,7 @@ namespace TestTask.Unistrim.Api.Repositories;
 
     public async Task<UserModel> CreateAsync(User newUser)
     {
-        try 
+        try
         {
             var existingUser = await _context.UserModels.FindAsync(newUser.Id);
 
@@ -86,8 +86,8 @@ namespace TestTask.Unistrim.Api.Repositories;
         var existingUser = await _context.UserModels.FindAsync(user.Id);
         if (existingUser is not null)
         {
-            
-           foreach (var property in _context.Entry(existingUser).Properties)
+
+            foreach (var property in _context.Entry(existingUser).Properties)
             {
                 property.IsModified = false;
             }
@@ -97,7 +97,7 @@ namespace TestTask.Unistrim.Api.Repositories;
                 if (existingUser.FirstName != user.FirstName)
                 {
                     existingUser.FirstName = user.FirstName;
-                }    
+                }
             }
 
             if (existingUser.LastName == null || existingUser.LastName == "string")
@@ -141,13 +141,10 @@ namespace TestTask.Unistrim.Api.Repositories;
             _context.UserModels.Remove(userToRemove);
             await _context.SaveChangesAsync();
         }
-        
-        else 
-        { 
-            throw new KeyNotFoundException($"Пользователь с ID: {id} не найден"); 
+        else
+        {
+            throw new KeyNotFoundException($"Пользователь с ID: {id} не найден");
         }
-            
     }
-  
 }
 
