@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TestTask.Unistrim.Api.Dto;
 using TestTask.Unistrim.Api.Interfaces;
 
 namespace TestTask.Unistrim.Api.Controllers;
@@ -8,12 +9,32 @@ namespace TestTask.Unistrim.Api.Controllers;
 public class UserDiscountController : ControllerBase
 {
     private readonly ILogger<UserDiscountController> _logger;
-    private readonly IUserService _userService;
+    private readonly IUserDiscountService _userService;
 
     public UserDiscountController(
-        ILogger<UserDiscountController> logger, IUserService userService)
+        ILogger<UserDiscountController> logger, IUserDiscountService userService)
     {
         _logger = logger;
         _userService = userService;
+    }
+
+    [HttpPost]
+    [Route("CreateUserDiscount")]
+
+    public async Task<ActionResult<List<UserDiscount>>> CreateUserDiscount()
+    {
+        try
+        {
+            _logger.LogInformation("Создание скидок, для пользователей с id: {id}", user.Id);
+            var result = await _userService.CreateUser(user);
+
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError("Произошла ошибка при добавлении нового пользователя: {ex}", ex.Message);
+
+            return BadRequest(ex.Message);
+        }
     }
 }

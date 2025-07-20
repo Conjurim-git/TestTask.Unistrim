@@ -6,5 +6,6 @@ namespace TestTask.Unistrim.Api.Interfaces;
 public interface IUserDiscountService
 {
     Task<List<Guid>> ChooseIDsForDiscountAsync();
+    Task<List<UserDiscount>> CreateListUserDiscountAsync();
 }
 

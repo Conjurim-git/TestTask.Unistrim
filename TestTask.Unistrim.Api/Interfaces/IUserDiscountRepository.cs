@@ -5,6 +5,6 @@ namespace TestTask.Unistrim.Api.Interfaces;
 
 public interface IUserDiscountRepository
 {
-
+    Task<List<DiscountPropertiesModel>> CreateDiscountByListAsync(List<Guid> discountIds);
 }
 

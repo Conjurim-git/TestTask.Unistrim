@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System.Collections.Generic;
+using System.Net;
 using TestTask.Unistrim.Api.Dto;
 using TestTask.Unistrim.Api.Interfaces;
 using TestTask.Unistrim.Api.Models;
@@ -45,6 +46,14 @@ public class UserDiscountService: IUserDiscountService
         IDsWithDiscount = ids.OrderBy(x => random.NextDouble()).Take(countUsersWithDiscount).ToList();
 
         return IDsWithDiscount;
+    }
+
+    public async Task<List<UserDiscount>> CreateListUserDiscountAsync()
+    {
+        List<Guid> ids = await ChooseIDsForDiscountAsync();
+        List<UserDiscount> usersWithDiscounts = await _repositoryDiscount.CreateDiscountByListAsync(ids);
+
+        return usersWithDiscounts;
     }
 }
 

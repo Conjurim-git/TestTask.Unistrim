@@ -67,19 +67,6 @@ namespace TestTask.Unistrim.Api.Repositories;
         .ToListAsync();
     }
 
-    //public async Task<List<UserDiscount>> GetUsersToDiscountAsync()
-    //{
-    //    return await _context.UserModels.Select(x => new UserDiscount()
-    //    {
-    //        Id = x.Id,
-    //        FirstName = x.FirstName,
-    //        LastName = x.LastName,
-    //        IsDiscount = false,
-    //        ValueOfDiscount = 0
-    //    })
-    //    .ToListAsync();
-    //}
-
     public async Task<UserModel> ChangeUserAsync(UserForUpdate user)
     {
 
