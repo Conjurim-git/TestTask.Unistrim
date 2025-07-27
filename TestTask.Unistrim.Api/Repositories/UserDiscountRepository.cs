@@ -33,5 +33,18 @@ public class UserDiscountRepository : IUserDiscountRepository
         await _context.SaveChangesAsync();
         return newDiscounts;
     }
+
+    public async Task<DiscountPropertiesModel> CreateDiscountByIdAsync(Guid discountId)
+    {
+        DiscountPropertiesModel newDiscount = new()
+        {
+            Id = discountId,
+            IsDiscount = true,
+            ValueOfDiscount = 0.8M,
+        };
+        await _context.DiscountPropertiesModels.AddAsync(newDiscount);
+        await _context.SaveChangesAsync();
+        return newDiscount;
+    }
 }
 

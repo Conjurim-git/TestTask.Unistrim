@@ -51,9 +51,14 @@ public class UserDiscountService: IUserDiscountService
     public async Task<List<UserDiscount>> CreateListUserDiscountAsync()
     {
         List<Guid> ids = await ChooseIDsForDiscountAsync();
-        List<UserDiscount> usersWithDiscounts = await _repositoryDiscount.CreateDiscountByListAsync(ids);
+        var newDiscounts = new List<UserDiscount>();
+        foreach (var id in ids)
+        {
+            DiscountPropertiesModel modelDiscount = await _repositoryDiscount.CreateDiscountByIdAsync(id);
+            newDiscounts.Add(UserDiscount.FromModel(modelDiscount));
+        }
 
-        return usersWithDiscounts;
+        return newDiscounts;
     }
 }
 

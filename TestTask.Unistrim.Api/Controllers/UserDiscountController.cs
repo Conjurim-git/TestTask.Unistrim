@@ -25,8 +25,8 @@ public class UserDiscountController : ControllerBase
     {
         try
         {
-            _logger.LogInformation("Создание скидок, для пользователей с id: {id}", user.Id);
-            var result = await _userService.CreateUser(user);
+            _logger.LogInformation("Создание скидок, для пользователей с рандомным id");
+            var result = await _userService.CreateListUserDiscountAsync();
 
             return Ok(result);
         }
